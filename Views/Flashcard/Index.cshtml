@@ -1,0 +1,44 @@
+﻿@using SquirrelCannon.Models;
+@model IEnumerable<Flashcard>
+
+<div class="container">
+    <h2>Today's Flashcards</h2>
+
+    @foreach (var card in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">@card.Question</h5>
+                <div class="answer" style="display:none;">
+                    <p class="card-text">@card.Answer</p>
+                </div>
+                <button class="btn btn-primary show-answer">Show Answer</button>
+                <div class="response-buttons" style="display:none;">
+                    <form asp-action="Review" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@card.Id" />
+                        <input type="hidden" name="correct" value="true" />
+                        <button type="submit" class="btn btn-success">Correct</button>
+                    </form>
+                    <form asp-action="Review" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@card.Id" />
+                        <input type="hidden" name="correct" value="false" />
+                        <button type="submit" class="btn btn-danger">Incorrect</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.show-answer').forEach(button => {
+            button.addEventListener('click', function() {
+                const card = this.closest('.card-body');
+                card.querySelector('.answer').style.display = 'block';
+                card.querySelector('.response-buttons').style.display = 'block';
+                this.style.display = 'none';
+            });
+        });
+    </script>
+}
