@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug/net9.0
+/obj
+/wwwroot/lib
+/appsettings.Development.json
+/appsettings.json
