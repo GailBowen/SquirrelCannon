@@ -31,3 +31,6 @@ appsettings.Development.json:
     }
   }
 }
+
+
+https://localhost:44363/flashcard

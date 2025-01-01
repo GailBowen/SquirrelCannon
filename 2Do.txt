@@ -1,0 +1,18 @@
+Get the @section Scripts working
+
+.vs folder should be added to gitignore?
+
+Check understand how it all works.
+
+Check out to a new folder and check it builds. Update-Database?
+
+Tell user how many correct today
+
+Give user a choice of which folder to use
+
+Tell user how long taken
+
+Scoreboard
+
+Separate users
+
