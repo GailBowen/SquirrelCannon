@@ -37,7 +37,7 @@ namespace SquirrelCannon.Controllers
             card.LastReview = DateTime.Today;
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            return Ok();
         }
 
         private int GetNextReviewInterval(int box) => box switch
