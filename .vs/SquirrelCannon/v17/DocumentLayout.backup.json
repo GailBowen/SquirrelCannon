@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\2do.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|solutionrelative:2do.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|solutionrelative:controllers\\flashcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\wwwroot\\js\\flashcards.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|solutionrelative:wwwroot\\js\\flashcards.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08187A40-6C60-46CB-BF4A-5B3FC4B1DC82}|SquirrelCannon.csproj|c:\\users\\gailb\\documents\\code\\squirrelcannon\\views\\flashcard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,32 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "2Do.txt",
-              "DocumentMoniker": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\2Do.txt",
-              "RelativeDocumentMoniker": "2Do.txt",
-              "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\2Do.txt",
-              "RelativeToolTip": "2Do.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-01T14:40:53.758Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T15:45:02.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-01-01T14:38:53.271Z",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvykAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T15:42:32.328Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +62,22 @@
               "RelativeDocumentMoniker": "Views\\Flashcard\\Index.cshtml",
               "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Views\\Flashcard\\Index.cshtml",
               "RelativeToolTip": "Views\\Flashcard\\Index.cshtml",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAwKUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T14:20:29.681Z",
+              "WhenOpened": "2025-01-01T15:38:49.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FlashcardController.cs",
-              "DocumentMoniker": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Controllers\\FlashcardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FlashcardController.cs",
-              "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\Controllers\\FlashcardController.cs",
-              "RelativeToolTip": "Controllers\\FlashcardController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T16:42:38.625Z",
+              "Title": "flashcards.js",
+              "DocumentMoniker": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\wwwroot\\js\\flashcards.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\flashcards.js",
+              "ToolTip": "C:\\Users\\gailb\\Documents\\Code\\SquirrelCannon\\wwwroot\\js\\flashcards.js",
+              "RelativeToolTip": "wwwroot\\js\\flashcards.js",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAnwEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-01T15:38:40.589Z",
               "EditorCaption": ""
             }
           ]
