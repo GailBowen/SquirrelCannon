@@ -7,6 +7,8 @@
         public string Answer { get; set; }
         public int Box { get; set; }
         public DateTime LastReview { get; set; }
+        public int SubjectId { get; set; }
+        public Subject Subject { get; set; }
     }
 
 }

@@ -12,6 +12,15 @@ namespace SquirrelCannon.Data
         }
 
         public DbSet<Flashcard> Flashcards { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Flashcard>()
+                .HasOne(f => f.Subject)
+                .WithMany()
+                .HasForeignKey(f => f.SubjectId);
+        }
     }
 
 }

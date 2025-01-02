@@ -13,12 +13,19 @@ namespace SquirrelCannon.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int subjectId)
         {
             var today = DateTime.Today;
-            var cards = await _context.Flashcards.ToListAsync();
-            var cardsToReview = cards.Where(c =>
-                (today - c.LastReview).Days >= GetNextReviewInterval(c.Box));
+            var cards = await _context.Flashcards
+                .Where(c => c.SubjectId == subjectId)
+                .ToListAsync();
+
+            var cardsToReview = cards
+                .Where(c => (today - c.LastReview).Days >=
+                GetNextReviewInterval(c.Box)).ToList();    
+
+            ViewBag.SubjectId = subjectId;
+
             return View(cardsToReview);
         }
 
