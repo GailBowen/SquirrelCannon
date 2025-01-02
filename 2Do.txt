@@ -1,4 +1,6 @@
-Get the @section Scripts working
+Get the @section Scripts working - done.
+
+Diff between Razor and MVC
 
 .vs folder should be added to gitignore?
 
