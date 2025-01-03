@@ -35,6 +35,13 @@
                 input.value = '';
                 input.focus();
             }
+
+            //Update progress counter
+            const currentCardNumber = document.getElementById('currentCardNumber');
+
+            if (currentCardNumber) {
+                currentCardNumber.textContent = index + 1;
+            }
         }
     }
 
@@ -95,15 +102,22 @@
         });
     });
 
-    //Handle enter key
-    document.querySelectorAll('.answer-input').forEach(input => {
-        input.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-                const checkButton = this.closest('.answer-section').querySelector('.check-answer');
-                if (checkButton && checkButton.style.display !== 'none') {
-                    checkButton.click();
-                }
+    //Global enter key handler
+    document.addEventListener('keypress', function (e) {
+
+        if (e.key === 'Enter') {
+            const currentCard = cards[currentCardIndex];
+            const checkButton = currentCard.querySelector('.check-answer');
+            const nextButton = currentCard.querySelector('.next-card');
+
+            if (checkButton && checkButton.style.display !== 'none') {
+                checkButton.click();
+            } else if (nextButton) {
+                nextButton.click();
             }
-        });
+
+        }
+
     });
+
 });
