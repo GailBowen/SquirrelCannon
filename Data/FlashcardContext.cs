@@ -20,6 +20,15 @@ namespace SquirrelCannon.Data
                 .HasOne(f => f.Subject)
                 .WithMany()
                 .HasForeignKey(f => f.SubjectId);
+
+
+            modelBuilder.Entity<Flashcard>()
+                .Property(f => f.LastReview)
+                .HasDefaultValue(new DateTime(2025, 1, 1));
+
+            modelBuilder.Entity<Flashcard>()
+                .Property(f => f.Box)
+                .HasDefaultValue(1);
         }
     }
 

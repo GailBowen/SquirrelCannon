@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SquirrelCannon.Data;
 
@@ -11,9 +12,11 @@ using SquirrelCannon.Data;
 namespace SquirrelCannon.Migrations
 {
     [DbContext(typeof(FlashcardContext))]
-    partial class FlashcardContextModelSnapshot : ModelSnapshot
+    [Migration("20250108083023_AddDefaultValues")]
+    partial class AddDefaultValues
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,14 +38,10 @@ namespace SquirrelCannon.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Box")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(1);
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("LastReview")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Question")
                         .IsRequired()
