@@ -13,9 +13,19 @@ namespace SquirrelCannon.Controllers
         }
 
         public async Task<IActionResult> Index() {
-            var subjects = await _context.Subjects.ToListAsync();
 
-            return View(subjects);
+            try
+            {
+                var subjects = await _context.Subjects.ToListAsync();
+
+                return View(subjects);
+                
+            }
+            catch (Exception)
+            {
+
+                return View("Loading");
+            }
         
         }
 
