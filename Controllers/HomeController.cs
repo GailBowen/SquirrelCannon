@@ -6,7 +6,7 @@ namespace SquirrelCannon.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return RedirectPermanent("https://squirrelcannon.foads.uk");
         }
     }
 }
